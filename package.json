@@ -13,9 +13,22 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "@testing-library/dom": "^8.20.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/ramda": "^0.28.23",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "@types/testing-library__cypress": "^5.0.9",
     "eslint-config-custom": "*",
+    "jsdom": "^21.1.0",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.5",
+    "vitest-axe": "^0.1.0",
+    "vitest-dom": "^0.0.4"
   },
   "engines": {
     "node": ">=14.0.0"
