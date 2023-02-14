@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { defineConfig, configDefaults } from "vitest/config";
 
 export default defineConfig({
@@ -15,4 +16,4 @@ export default defineConfig({
     },
     setupFiles: ["./test/setupTests.ts"],
   },
-})
+});
