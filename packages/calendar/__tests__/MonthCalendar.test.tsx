@@ -62,7 +62,7 @@ describe("<MonthCalendar />", () => {
           </MonthCalendar.Grid>
         );
 
-        expect(screen.getAllByRole(/(grid)?cell/).at(4))
+        expect(screen.getAllByRole(/(grid)?cell/)[4])
           //
           .toHaveTextContent("01");
       });
@@ -75,7 +75,7 @@ describe("<MonthCalendar />", () => {
           </MonthCalendar.Grid>
         );
 
-        expect(screen.getAllByRole(/(grid)?cell/).at(4))
+        expect(screen.getAllByRole(/(grid)?cell/)[4])
           //
           .toHaveTextContent("01");
 
@@ -85,7 +85,7 @@ describe("<MonthCalendar />", () => {
             <MonthCalendar.GridCell />
           </MonthCalendar.Grid>
         );
-        expect(screen.getAllByRole(/(grid)?cell/).at(0))
+        expect(screen.getAllByRole(/(grid)?cell/)[0])
           //
           .toHaveTextContent("01");
       });

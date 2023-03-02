@@ -101,7 +101,7 @@ const GridCell = forwardRef<HTMLElement, GridCellProps>((_props, _ref) => {
         <tr key={index}>
           {row.map((day, index) => {
             if (!day) {
-              return <td key={index} {...props} tabIndex={-1} />;
+              return <td key={index} role="cell" {...props} tabIndex={-1} />;
             }
 
             const element = children?.(day);
@@ -115,7 +115,7 @@ const GridCell = forwardRef<HTMLElement, GridCellProps>((_props, _ref) => {
 
             if (isValidElement(element)) {
               return (
-                <td key={index} {...props}>
+                <td key={index} {...props} role="cell">
                   {cloneElement(element, {
                     ...element.props,
                     tabIndex,
