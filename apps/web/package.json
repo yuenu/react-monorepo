@@ -14,7 +14,8 @@
     "react-dom": "^18.2.0",
     "button": "*",
     "calendar": "*",
-    "dialog": "*"
+    "dialog": "*",
+    "breadcrumb": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
