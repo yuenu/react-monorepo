@@ -15,7 +15,8 @@
     "button": "*",
     "calendar": "*",
     "dialog": "*",
-    "breadcrumb": "*"
+    "breadcrumb": "*",
+    "accordion": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
